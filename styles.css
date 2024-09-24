@@ -1,0 +1,50 @@
+
+/* Header */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F1E1C9 ;
+    
+   
+    
+}
+
+.top-2 {
+    padding-left: 1rem;
+}
+
+.top-3 a {
+   padding: 1rem;
+   
+}
+
+span a {
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+
+/* club */
+
+.club img {
+    width: 100%
+}
+
+/* HTML */
+html {
+    background-color: #8B5E3C;
+}
+html, body {
+    height: 100%;
+    margin:0
+}
+  
+h1 {
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+      
