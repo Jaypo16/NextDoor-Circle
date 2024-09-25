@@ -19,6 +19,31 @@ h2 {
     font-style: normal;
     text-align: center; 
 }
+ 
+ul, li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+
+}
+ul {
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+
+}
+
+li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 /* Header */
 
@@ -57,7 +82,60 @@ span a {
 /* bar */
 .bar {
     border: 1px solid #F1E1C9;
+    margin: 2rem 8rem;
+
+}
+
+.bar-2 {
+    border-left: 2px solid #F1E1C9;
+    height: 400px;
+    
+
+}
+
+/* Activity */
+
+.activity {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+    margin: auto;
+    
     
 }
+
+.activity img {
+    
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+    
+    
+}
+.potluck h3, .dodgeball h3 {
+    
+   margin-left: 50px;
+   margin-right: 50px;
+    
+    
+
+}
+
+.potluck, .dodgeball {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+}
+
+/* foot */
+
+.foot {
+    background-color: #F1E1C9;
+    text-align: center;
+}
+
 
 
