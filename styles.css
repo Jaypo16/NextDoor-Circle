@@ -1,3 +1,24 @@
+/* HTML */
+html {
+    background-color: #8B5E3C;
+}
+html, body {
+    height: 100%;
+    margin:0
+}
+  
+h1 {
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+      
+h2 {
+     font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center; 
+}
 
 /* Header */
 
@@ -33,18 +54,10 @@ span a {
     width: 100%
 }
 
-/* HTML */
-html {
-    background-color: #8B5E3C;
+/* bar */
+.bar {
+    border: 1px solid #F1E1C9;
+    
 }
-html, body {
-    height: 100%;
-    margin:0
-}
-  
-h1 {
-    font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-      
+
+
