@@ -76,7 +76,8 @@ span a {
 /* club */
 
 .club img {
-    width: 100%
+    
+    max-width: 100%;
 }
 
 /* bar */
@@ -129,6 +130,27 @@ span a {
     width: 600px;
     height: 600px;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 866px) and (max-height: 637px){
+    .club img {
+        display: none;
+    }
+    
+
+    
+
+    
+}
+
+@media only screen and (min-width: 866px) and (min-height: 637px) {
+    li {
+        margin: .5rem auto;
+    }
+
+    
+
 
 /* foot */
 
