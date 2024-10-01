@@ -1,10 +1,15 @@
 /* HTML */
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: #8B5E3C;
 }
 html, body {
     height: 100%;
     margin:0
+    
 }
   
 h1 {
@@ -27,17 +32,7 @@ ul, li {
     
 
 }
-ul {
-    margin-left: 400px;
-    margin-right: 400px;
-    text-align: center;
 
-}
-
-li {
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 h3 {
     font-family: "Roboto", sans-serif;
@@ -76,7 +71,6 @@ span a {
 /* club */
 
 .club img {
-    
     max-width: 100%;
 }
 
@@ -84,6 +78,7 @@ span a {
 .bar {
     border: 1px solid #F1E1C9;
     margin: 2rem 8rem;
+    
 
 }
 
@@ -102,7 +97,6 @@ span a {
     justify-content: space-around;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    
     margin: auto;
     
     
@@ -118,9 +112,10 @@ span a {
 }
 .potluck h3, .dodgeball h3 {
     
-   margin-left: 50px;
-   margin-right: 50px;
-    
+   margin-left: 3.1rem;
+   margin-right: 3.1rem;
+   font-size: 1rem;
+  
     
 
 }
@@ -129,31 +124,74 @@ span a {
     text-align: center;
     width: 600px;
     height: 600px;
+    border: 1px solid red;
+    margin: 0 auto; /* Center align the section */
 }
 
-/* Media Queries */
+/* Join */
+.join {
+    padding: 2rem;
+    margin: 0 auto; /* Center align the section */
+    max-width: 100%; /* Ensure it doesn't overflow */
+}
 
-@media only screen and (max-width: 768px){
-    .club img {
-        display: none;
+.join ul {
+    text-decoration: none;
+}
+
+
+
+    
+
+
+
+/* Media Queries */
+@media (min-width: 769px) {
+    .join {
+        max-width: 100%; /* Ensure it doesn’t push off the screen */
     }
 
-    .club  {
-        border: 1px solid red;
+    .join ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .join ul li {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+    
+@media (max-width: 768px) {
+    .top-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-3 a {
+        margin: 0.5rem 0;
+    }
+
+    .activity {
+        flex-direction: column;
         
-        
-        
+    }
+
+    .activity div {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
     }
 
     .club h2 {
-        justify-items: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        font-size: 2.5em;
+        font-size: 1.1rem;
     }
-    
-    header {
-        width: 55rem;
+
+    .join h2 {
+        font-size: 1.2rem;
+    }
+
+    .join ul li {
+        font-size: 1.3rem;
     }
 
     .bar {
@@ -163,27 +201,69 @@ span a {
     .bar-2 {
         display: none;
     }
+     .activity img {
+        object-fit: contain;
+        object-fit: cover;
+        height: auto;
+        max-width: 100%;
+        
+     }
 
-    .foot {
-        width: 55rem;
+     .activity h3 {
+        font-size:1rem;
+     }
+
+        
+    
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
     }
-}
 
-    
-    
-
-    
-
-    
-}
-
-@media only screen and (min-width: 771px) {
-    header {
-        width: 300px;
+    .top-3 a {
+        font-size: 1rem;
     }
-}
-    
 
+    .club h2 {
+        font-size: 1rem;
+    }
+
+    .join h2 {
+        font-size: 1rem;
+    }
+
+    .join ul li {
+        font-size: 0.9rem;
+    }
+
+    .bar {
+        display: none;
+    }
+    .bar-2 {
+        display: none;
+    }
+
+    .potluck h3 {
+        font-size: 0.5rem;
+    }
+
+    .dodgeball h3 {
+        font-size: 0.5rem;
+
+    }
+
+    .activity img {
+        object-fit: cover;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .activity h3 {
+        font-size:1rem;
+     }
+}
     
 
 
