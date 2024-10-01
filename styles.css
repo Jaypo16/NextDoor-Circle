@@ -124,7 +124,6 @@ span a {
     text-align: center;
     width: 600px;
     height: 600px;
-    border: 1px solid red;
     margin: 0 auto; /* Center align the section */
 }
 
